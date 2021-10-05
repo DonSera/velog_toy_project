@@ -23,3 +23,40 @@
     background-color: white;
     border-radius: 5px;
 }
+
+.popup-header{
+}
+
+.login-popup-exit{
+    margin: 1em;
+    float: right;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 2em;
+
+    cursor: pointer;
+}
+
+.popup-body{
+ }
+
+.email-input-wrap{
+    display: flex;
+    position: relative;
+}
+
+.email-input{
+    width: 80%;
+    height: 3rem;
+}
+
+.email-input-wrap > .login-button{
+    background-color: limegreen;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+}
+.email-input-wrap > .login-button:hover{
+    color: black;
+}

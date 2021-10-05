@@ -20,7 +20,7 @@ const login = {
             }
         }
         return false
-    }
+    },
 }
 
 export default login;

@@ -2,10 +2,9 @@ import loginInfo from '../customerInfo/loginInfo.json'
 
 const login = {
     checkSignUpLogin: function (email) {
-        if (loginInfo.email) {
+        if (loginInfo[email]) {
             console.log(`${email} is exit`);
-
-            return loginInfo.email
+            return loginInfo[email]
         } else {
             console.log(`${email} is non exit`);
             return {}
